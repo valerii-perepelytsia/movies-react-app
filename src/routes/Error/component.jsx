@@ -1,6 +1,10 @@
+import './style.scss'
+
 const Error = () => {
     return (
-        <div></div>
+            <div className="error">
+                <h1>Error 404</h1>
+            </div>
     )
 }
 
